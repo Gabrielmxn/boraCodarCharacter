@@ -1,0 +1,26 @@
+:root {
+ --blue-700: #030422;
+ --blue-800: #05041F;
+ --blue-900: #090114;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: linear-gradient(var(--blue-700), var(--blue-800), var(--blue-900));
+
+}
+
+.container-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
